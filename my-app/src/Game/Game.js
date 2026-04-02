@@ -1,5 +1,5 @@
 import { GameLayout } from './GameLayout';
-import { useDispatch } from './redux-manager';
+import { useDispatch } from 'react-redux';
 import { RESTART_GAME } from './actions';
 
 export const Game = () => {
