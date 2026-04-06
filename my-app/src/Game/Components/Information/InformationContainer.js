@@ -1,3 +1,4 @@
+
 import { useSelector } from 'react-redux';
 import { InformationLayout } from './InformationLayout';
 import {
@@ -11,7 +12,6 @@ export const InformationContainer = () => {
 	const currentPlayer = useSelector(selectCurrentPlayer);
 	const isGameEnded = useSelector(selectIsGameEnded);
 	const isDraw = useSelector(selectIsDraw);
-
 
 	let message = '';
 

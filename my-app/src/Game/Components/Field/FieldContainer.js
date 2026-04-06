@@ -42,7 +42,7 @@ export const FieldContainer = () => {
 		}
 
 		if (newField.every((cell) => cell !== '')) {
-			dispatch(setIsDraw(STATUS.DRAW));
+			dispatch(setIsDraw(true));
 			return;
 		}
 
